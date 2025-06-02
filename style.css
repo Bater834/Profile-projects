@@ -1,0 +1,86 @@
+body {
+  background-color: #a0e6ff;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-card {
+  background-color: #333;
+  color: white;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  width: 600px;
+}
+
+.image-section img {
+  width: 250px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.info-section h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.info-section p {
+  margin: 5px 0 15px;
+  font-size: 18px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2a2a2a;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.label {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.value {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-btn,
+.follow-btn {
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.chat-btn {
+  background-color: transparent;
+  color: #5ea0ff;
+  border: 2px solid #5ea0ff;
+}
+
+.follow-btn {
+  background-color: #3c76f2;
+  color: white;
+}
